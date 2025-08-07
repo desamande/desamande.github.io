@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color:  white;
-  background-image: url("logo-sugihmukti.png");
+  background-image: url("https://i.pinimg.com/474x/eb/c5/a7/ebc5a73cc7c6ee70dd83a58247b1e9f7.jpg");
   background-size: 300px;
   background-repeat: no-repeat;
   background-position: center center;
@@ -13,7 +13,7 @@ body::before {
   content: "";
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: url("img/logo-sugihmukti.png") no-repeat center center;
+  background: url("img/https://i.pinimg.com/474x/eb/c5/a7/ebc5a73cc7c6ee70dd83a58247b1e9f7.jpg") no-repeat center center;
   background-size: 350px;
   opacity: 0.05;
   z-index: -1;
@@ -171,4 +171,5 @@ footer {
   height: 300px;
   border: 2px solid #ccc;
   border-radius: 10px;
+
 }
