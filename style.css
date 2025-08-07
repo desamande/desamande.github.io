@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color:  white;
+  background-image: url("logo-sugihmukti.png");
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: url("img/logo-sugihmukti.png") no-repeat center center;
+  background-size: 350px;
+  opacity: 0.05;
+  z-index: -1;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background: white;
+}
+
+.logo {
+  height: 80px;
+}
+
+nav {
+  text-align: center;
+  background: #006400;
+  padding: 10px;
+}
+
+nav a {
+  color:  skyblue;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+  background-color: transparent;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.hero {
+  text-align: center;
+}
+
+.struktur {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+
+.anggota img {
+  width: 250px;
+  height: 250px;
+  border-radius: none;
+}
+
+.anggota h4 {
+  text-align: center;
+}
+
+.anggota p {
+  text-align: center;
+}
+
+.galeri img {
+  width: 200px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 15px;
+}
+
+.visi-misi {
+  padding: 40px 20px;
+  background-color: transparent;
+  text-align: center;
+}
+
+.visi-misi h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.visi-misi .visi,
+.visi-misi .misi {
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+  text-align: left;
+}
+
+.visi-misi h3 {
+  font-size: 22px;
+  color: #005aad;
+}
+
+.visi-misi p,
+.visi-misi ul {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
+}
+
+.visi-misi ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.kontak-kami {
+  padding: 80px 20px;
+  background-color: transparent;
+  text-align: center;
+}
+
+.kontak-kami h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.kontak-kami p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.kontak-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.kontak-info, .kontak-maps {
+  flex: 1 1 300px;
+  max-width: 500px;
+  text-align: left;
+}
+
+.kontak-info h3 {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #007BFF;
+}
+
+.kontak-info p {
+  font-size: 16px;
+  color: #333;
+}
+
+.kontak-maps iframe {
+  width: 100%;
+  height: 300px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
